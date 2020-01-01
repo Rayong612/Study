@@ -1,0 +1,13 @@
+<view class="view1" bindtap="view1Click" id="view1" data-id="100" data-title="我的练习">
+    111
+  <view class="view2" bindtap="view2Click" id="view2">
+      222
+    <view class="view3" catchtap="view3Click" id="view3">
+        333
+    </view>
+
+  </view>
+
+</view>
+
+<!-- 如果view3使用catchtap绑定事件,那么不会出现冒泡事件 -->

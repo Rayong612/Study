@@ -1,0 +1,9 @@
+<view wx:for="{{movies}}">
+{{index+1}}--{{item}}
+</view>
+
+<view wx:for="{{movies}}" wx:for-item="movie" wx:for-index="num">
+{{num+1}}--{{movie}}
+</view>
+
+<button type="primary" bindtap="btnClick" class="btn">{{btnText}}</button>

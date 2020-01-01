@@ -1,0 +1,16 @@
+.view1{
+  height: 500rpx;
+  width: 100%;
+  background: rebeccapurple;
+}
+.view2{
+  height: 400rpx;
+  width: 80%;
+  background: red;
+}
+.view3{
+  height: 300rpx;
+  width: 60%;
+  background: yellow;
+}
+
