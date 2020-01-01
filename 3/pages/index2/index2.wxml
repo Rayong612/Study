@@ -1,0 +1,4 @@
+<view class="container">
+  这里是按钮详情内容...当前的ID是：{{text}}
+  当前的Title是：{{title}}
+</view>

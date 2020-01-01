@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index2/index2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#154",
+    "navigationBarTitleText": "我的微信小程序",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "black",
+    "backgroundColor": "#153",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/icon1-1.png",
+        "selectedIconPath":"img/icon1.png"
+
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "img/icon2-1.png",
+        "selectedIconPath": "img/icon2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+
+ 
+
+
+  "my.json注释": {
+    "borderStyle": "上边框的颜色，仅有white和black两个值",
+    "list": "list属性至少要两个tab，最多五个tab",
+    "networkTimeout":"网络超时的反应",
+    "position":"tabBar的位置，仅支持 bottom / top",
+    "debug":"可以帮助开发者快速定位一些常见的问题"
+  }
+}
+
+
