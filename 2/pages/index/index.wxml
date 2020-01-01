@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <input placeholder="请输入快递单号" bindinput="inputText" />
+  <button type="primary" bindtap="btnClick">{{btnText}}</button>
+</view>
