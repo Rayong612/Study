@@ -1,0 +1,17 @@
+.index-container{
+  height: 1200rpx;
+  width: 100%;
+  text-align: center;
+  /* background-color: yellow; */
+  margin-top: -20px
+}
+
+.index-container image{
+  height: 100%;
+}
+
+.nickname{
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+
+ <!-- <image src="/img/index.png" bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ images[index].width }}rpx; height:{{ images[index].height }}rpx;"></image> -->
+
+<view class="myView">
+  <image src="/img/index.png"></image>
+</view>
+

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/user"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "用户登录",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "color": "#ccc",
+      "selectedColor":"#ddd",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "img/icons.png",
+          "selectedIconPath": "img/icon.png"
+        },
+        {
+          "pagePath": "pages/login/login",
+          "text": "用户中心",
+          "iconPath": "img/users.png",
+          "selectedIconPath": "img/user.png"
+        }
+      ]
+    },
+
+ 
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+.myView{
+  height: 5000rpx;
+  width: 100%;
+  text-align: center;
+  /* background-color: yellow; */
+}
+
+.myView image{
+  height: 100%;
+}
