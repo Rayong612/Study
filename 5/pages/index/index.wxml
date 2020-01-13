@@ -1,0 +1,58 @@
+<view class="container">
+       <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="width:300px">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+          <image src="{{item}}" ></image>
+            
+          </swiper-item>
+        </block>
+      </swiper>
+
+<!-- 按钮部分 -->
+<view class="btn-section">
+  <view class="spot">
+    <view class="spotText">指示点</view>
+    <view class="spotBtn">
+       <switch style="zoom:.9" checked="{{indicatorDots}}" bindchange="changeIndicatorDots" />
+    </view>
+  </view>
+
+  <view class="play">
+    <view class="playText">自动播放</view>
+    <view class="playBtn">
+       <switch style="zoom:.9" checked="{{autoplay}}" bindchange="changeAutoplay" />
+    </view>
+  </view>
+</view>
+
+<!-- 进度条部分 -->
+<view class="bar-section">
+  <view class="duration">
+    <view class="durationText">
+      <text>幻灯片切换时长(ms)</text>
+      <text class="info">{{duration}}</text>
+    </view>
+    <slider bindchange="durationChange" value="{{duration}}" min="500" max="2000"/>
+  </view>
+
+  <view class="interval">
+    <view class="intervalText">
+      <text>自动播放间隔时长(ms)</text>
+      <text class="info">{{interval}}</text>
+    </view>
+    <slider bindchange="intervalChange" value="{{interval}}" min="2000" max="10000"/>
+  </view>
+</view>
+
+</view>
+
+
+
+
+<!-- 1.需要wx:key的情况
+列表中项目的位置会动态改变或者有新的项目添加到列表中
+希望列表中的项目保持自己的特征和状态
+（如 <input/> 中的输入内容，<switch/> 的选中状态）
+2.可不需要wx:key的情况
+如果明确知道该列表是静态，或者不必关注其顺序，可以不用加wx:key -->
