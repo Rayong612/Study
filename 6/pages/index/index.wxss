@@ -1,0 +1,103 @@
+.container{
+  width: 100%;
+  height: 100%;
+    padding-top: 0;
+}
+
+.page-body{
+  width: 100%;
+  height: 450px;
+}
+
+.page-section{
+  width: 100%;
+  height: 225px;
+  /* border: 1px solid red; */
+}
+
+.page-section-title{
+  font-size: 18px;
+  font-family: "华文行楷"
+}
+
+.page-section-spacing{
+  display: flex;
+  width: 98%;
+  height: 400rpx;
+  border: 1px solid black;
+   white-space: nowrap;
+
+}
+
+#demo1{
+  background-color: grey;
+}
+#demo2{
+  background-color: blue;
+}
+#demo3{
+  background-color: yellow;
+}
+
+.scroll-view-item,
+.scroll-view-item_H{
+  height: 400rpx;
+}
+
+.scroll-view_H{
+    /* overflow-x: scroll; */
+}
+.scroll-view-item_H{
+		  width:100%;
+      display:inline-block;
+}
+
+#demo4{
+  background-color: grey;
+}
+#demo5{
+  background-color: blue;
+}
+#demo6{
+  background-color: yellow;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  color:#ffffff;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color:#FFFFFF;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color:black;
+}
+
+.slide{
+  height:30rpx;
+  background:#fff;
+  width:100%;
+  padding:14rpx 0 5rpx 0
+}
+.slide .slide-bar{
+  width:230rpx;
+  margin:0 auto;
+  height:1.5px;
+  background:#eee;
+}
+.slide .slide-bar .slide-show{
+  height:100%;
+  background-color:#ff6969;
+
+}
