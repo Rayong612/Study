@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view class="container">
+<progress percent="20" show-info />
+<progress percent="40" stroke-width="12" show-info />
+<progress percent="60" color="pink" />
+<progress percent="80" active />
+
+<!-- 新加的属性 -->
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+
+<text>{{text}}</text>
+  
+  <block wx:for="{{iconType}}" wx:key="*this">
+    <icon type="{{item}}" size="45"/>
+  </block>
+
+</view>
