@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}" wx:key="*this">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group> -->
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <text>switch开关</text>
+    <switch name="switch"/>
+  </view>
+
+  <view class="section">
+    <text>slider滑块</text>
+    <slider name="slider" show-value ></slider>
+  </view>
+
+  <view class="section">
+    <text>input输入框</text>
+    <input name="input" placeholder="输入你想要输入的文字" />
+  </view>
+
+  <view class="section">
+    <text>请选择性别：</text>
+    <radio-group name="sex">
+      <label><radio value="男"/>男</label>
+      <label><radio value="女"/>女</label>
+    </radio-group>
+  </view>
+
+  <view class="section">
+    <text>请选择你喜欢的水果：</text>
+    <checkbox-group name="food">
+      <label><checkbox value="香蕉"/>香蕉</label>
+      <label><checkbox value="苹果"/>苹果</label>
+      <label><checkbox value="西瓜"/>西瓜</label>
+    </checkbox-group>
+  </view>
+
+
+    <button form-type="submit" type="primary"  loading="{{loading}}" bindtap="setLoading" hover-class="other-button-hover"	>Submit</button>
+    <button form-type="reset" type="warn"  hover-class="other-button-hover" bindtap="setPlain" plain="{{plain}}">Reset</button>
+</form>
+</view>
