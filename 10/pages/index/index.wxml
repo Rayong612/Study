@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <video src="https://vdept.bdstatic.com/6b737573344836727768764b684a6d72/756d356c7933464b/9b1d04440c0e97d09074779634f99fbff3a771e67fa7e29d0af065fd84ec07563e2b03b7046dca21bb4de0db10bbb67e.mp4?auth_key=1579173014-0-0-47e7da1fe36762e73f48524669c75654" controls danmu-btn bindMuted="{{muted}}" show-fullscreen-btn enable-progress-gesture></video>
+
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" action="{{action}}" funtimeupdate="funtimeupdate" controls loop></audio>
+
+    <button type="primary" bindtap="audioPlay">播放</button>
+    <button type="primary" bindtap="audioPause" >暂停</button>
+    <button type="primary" bindtap="audio2">2倍速播放</button>
+    <button type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+    <button type="primary" bindtap="audioStart">回到开头</button>
+</view>
