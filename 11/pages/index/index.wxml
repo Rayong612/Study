@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+   
+<map id='mymap' bindregionchange='bindregionchange' show-location longitude='{{longitude}}' latitude='{{latitude}}' markers='{{markers}}' class="maps" scale='13' style="height:400px" >
+<cover-image class='position_img' bindtap='getlocation' src='/image/01.png'></cover-image>
+</map>
+</view>
