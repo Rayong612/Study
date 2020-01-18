@@ -1,0 +1,111 @@
+swiper{
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.section{
+  border-bottom: 5px solid #ddd;
+}
+
+.header{
+  border-left: 2.5px solid green;
+  display: flex;
+  justify-content: space-between;
+  /* 让子内容两边靠 */
+  flex-wrap: center;
+  margin: 10px 0;
+  align-items: center;
+  /* 垂直居中 */
+}
+
+.header text{
+  padding-left: 5px;
+}
+
+.header-right{
+  font-size: 12px;
+  color: green;
+  padding-right: 5px;
+}
+
+.content{
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  flex-direction: row;
+  /* 横向布局 */
+  flex-wrap: wrap;
+  /* 横向空间不够自动换行 */
+  justify-content: center;
+  /* 让内容水平居中 */
+}
+
+.content-item{
+  width: 45%;
+  height: 220rpx;
+  background: green;
+  margin: 5px;
+  position: relative;
+  /* display: flex;
+  align-items: center; */
+}
+
+.content-item image{
+  width: 100%;
+  height: 100%;
+}
+
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+  width: 99%;
+  color: white;
+  font-size: 14px;
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+  padding: 0 0 1% 1%;
+}
+
+.list-item{
+  height: 595rpx;
+  width: 100%;
+  margin-top: 10px;
+  /* background:  */
+}
+
+.list-item-image{
+  height: 380rpx;
+  width: 100%;
+  position: relative;
+}
+
+.list-item-image .info{
+  width: 100%;
+  height: 100%;
+}
+
+.list-item-image .user{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  bottom: -50rpx;
+  right: 20rpx;
+  border-radius: 50%;
+}
+
+.list-item-text{
+  height: 165rpx;
+  width: 98%;
+  /* background-color: green; */
+  padding-top: 50rpx;
+}
+
+.list-item-text text{
+  display: block;
+  padding-left: 2%
+}
+.text-info{
+  font-size: 12px;
+  color: #999;
+  margin-top: 3px;
+}
