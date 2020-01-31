@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+   <button type="primary" bindtap="statusClick">获取当前设备的状态</button>
+    <button type="primary" bindtap="screenClick">获取屏幕亮度</button>
+    <button type="primary" bindtap="thingClick">获取该设备信息</button>
+  <button type="primary" bindtap="callClick">点击拨打紧急电话</button>
+  <button type="primary" bindtap="saoClick">扫码</button>
+  <button type="primary" bindtap="blueClick">蓝牙连接</button>
+  <button type="default" bindtap="useClick"> 用户交互</button>
+  <button type="default" bindtap="usesClick"> 用户交互弹窗</button>
+  <button type="default" bindtap="use2Click"> 用户交互加载</button>
+</view>
