@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <button type="default" bindtap="btn1">点击右上角显示的红点</button>
+  <button type="default" bindtap="btn8">点击取消右上角显示的红点</button>
+  <button type="default" bindtap="btn2">点击隐藏 tabBar</button>
+  <button type="default" bindtap="btn3">点击显示 tabBar</button>
+  <button type="default" bindtap="btn4">点击设置 tabBar 的整体样式</button>
+  <button type="default" bindtap="btn5">点击改变 tabBar 的图片</button>
+  <button type="default" bindtap="btn6">点击为 tabBar 某一项的右上角添加文本</button>
+  <button type="default" bindtap="btn7">点击去除 tabBar 右上角的文本</button>
+</view>
