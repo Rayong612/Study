@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image animation="{{animationData}}" bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+<button type="primary" bindtap="rotateBtn">点击旋转</button>
+<button type="primary" bindtap="scaleBtn">点击放大</button>
+<button type="primary" bindtap="scale2Btn">点击缩小</button>
+<button type="primary" bindtap="translateBtn">点击右偏移</button>
+<button type="primary" bindtap="translate2Btn">点击左偏移</button>
+<button type="primary" bindtap="bbBtn">点击旋转放大右偏移</button>
+</view>
