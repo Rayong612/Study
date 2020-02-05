@@ -1,0 +1,5 @@
+/* pages/cloud/cloud.wxss */
+button{
+  width: 80%!important;
+  margin-top: 10px;
+}

@@ -1,0 +1,4 @@
+<button type="default" bindtap="insertBtn">从云数据库中插入数据</button>
+<button type="default" bindtap="upBtn">从云数据库中更新数据</button>
+<button type="default" bindtap="seachBtn">从云数据库中查找数据</button>
+<button type="default" bindtap="delBtn">从云数据库中删除数据</button>
