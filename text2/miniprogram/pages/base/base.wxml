@@ -1,0 +1,1 @@
+<button type="default" bindtap="sunBtn">点击调用云函数sum</button>
