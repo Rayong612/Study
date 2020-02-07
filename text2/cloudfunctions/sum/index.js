@@ -5,7 +5,10 @@
 
 // 云函数入口函数
 exports.main = async (event, context) => {
-    return{
-      sum:event.a + event.b
-    }
+  // const wxContext = cloud.getWXContext()
+  let sum = event.a + event.b;
+  console.log(event.a)
+  return {
+    sum:event.a +event.b
+  }
 }

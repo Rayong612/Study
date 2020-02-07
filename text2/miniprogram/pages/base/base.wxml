@@ -1,1 +1,2 @@
-<button type="default" bindtap="sunBtn">点击调用云函数sum</button>
+<button type="default" bindtap="sumBtn">点击调用云函数sum</button>
+<button type="default" bindtap="delBtn">点击调用云函数一次删除多条数据</button>
