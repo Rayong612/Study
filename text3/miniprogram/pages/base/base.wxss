@@ -1,0 +1,5 @@
+/* pages/base/base.wxss */
+button{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

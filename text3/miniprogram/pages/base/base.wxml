@@ -1,0 +1,6 @@
+<button type="default" bindtap="upBtn">点击上传文件</button>
+<button type="default" bindtap="getBtn">文件展示</button>
+<block wx:for="{{images}}" wx:key="*this">
+  <image src="{{item.fileID}}"></image>
+  <button size="mini" data-fileid="{{item.fileID}}" type="default" bindtap="downBtn">下载图片</button>
+</block>
